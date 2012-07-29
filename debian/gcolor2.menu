@@ -1,0 +1,3 @@
+?package(gcolor2):needs="X11" section="Applications/Graphics"\
+  title="gcolor2" command="/usr/bin/gcolor2"\
+  icon="/usr/share/pixmaps/gcolor2/gcolor2.xpm"

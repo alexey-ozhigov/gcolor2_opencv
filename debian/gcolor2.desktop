@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Gcolor2
+GenericName=Gcolor2
+Comment=Simple GTK2 color selector and picker
+Exec=gcolor2
+Icon=/usr/share/pixmaps/gcolor2/gcolor2.xpm
+Terminal=false
+Type=Application
+Categories=Application;Graphics;

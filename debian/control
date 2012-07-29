@@ -1,0 +1,17 @@
+Source: gcolor2
+Section: gnome
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Carlos C Soto <csoto@sia-solutions.com>
+Uploaders: David Moreno Garza <damog@debian.org>
+Build-Depends: debhelper (>= 4.0.0), autotools-dev, libgtk2.0-dev, perl, libxml-perl
+Standards-Version: 3.6.2
+Homepage: http://gcolor2.sourceforge.net/
+
+Package: gcolor2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simple GTK2 color selector and picker
+ Gcolor2 is a simple GTK2 color selector to provide a quick and easy
+ way to find colors for whatever task is at hand.
+ Colors can be saved and deleted as well.

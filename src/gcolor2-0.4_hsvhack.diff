@@ -1,0 +1,63 @@
+--- /home/alex/gcolor2-0.4_orig/gcolor2-0.4/src/callbacks.c	2012-07-28 19:00:24.000000000 +0200
++++ ../src/callbacks.c	2012-07-28 19:15:26.515029921 +0200
+@@ -12,12 +12,15 @@
+ /* missing headers on original file */
+ #include <string.h>
+ #include <glib/gprintf.h>
++#include <stdint.h>
++#include <math.h>
+ 
+ GtkWidget        *savedialog;
+ gchar            *colorname;
+ static GtkWidget *aboutdialog = NULL;
+ GtkTreeIter       selection_iter;
+ 
++extern GtkWidget *mytext;
+ 
+ /**
+  * displays a simple file error dialog, where type specifies the
+@@ -106,7 +109,19 @@
+ 
+ void on_colorselection_color_changed (GtkColorSelection *colorselection, gpointer user_data)
+ {
+-	gtk_color_selection_get_current_color (colorselection, &colorvalue);
++    char szhsv[64];
++    gdouble r, g, b;
++    gdouble h, s, v;
++    gtk_color_selection_get_current_color (colorselection, &colorvalue);
++    r = 1.0 * colorvalue.red / 65535;
++    g = 1.0 * colorvalue.green / 65535;
++    b = 1.0 * colorvalue.blue / 65535;
++    gtk_rgb_to_hsv(r, g, b, &h, &s, &v);
++    snprintf(szhsv, sizeof(szhsv), "OpenCV H: %hu S: %hu V: %hu",
++             (uint16_t)nearbyint(h * 180.0),
++             (uint16_t)nearbyint(s * 255.0),
++             (uint16_t)nearbyint(v * 255.0));
++    gtk_entry_set_text((GtkEntry *)mytext, szhsv);
+ }
+ 
+ void on_save_entry_changed (GtkEditable *editable, gpointer user_data)
+--- /home/alex/gcolor2-0.4_orig/gcolor2-0.4/src/interface.c	2012-07-28 19:00:24.000000000 +0200
++++ ../src/interface.c	2012-07-28 16:56:24.920001044 +0200
+@@ -26,6 +26,8 @@
+ #define GLADE_HOOKUP_OBJECT_NO_REF(component,widget,name) \
+   g_object_set_data (G_OBJECT (component), name, widget)
+ 
++GtkWidget *mytext;
++
+ GtkWidget*
+ create_gcolor2 (void)
+ {
+@@ -143,6 +145,12 @@
+   gtk_container_add (GTK_CONTAINER (hbuttonbox3), quit_button);
+   GTK_WIDGET_SET_FLAGS (quit_button, GTK_CAN_DEFAULT);
+   gtk_tooltips_set_tip (tooltips, quit_button, _("Exit the program"), NULL);
++  
++  mytext = gtk_entry_new();
++  gtk_editable_set_editable((GtkEditable *)mytext, TRUE);//, FALSE);
++  gtk_widget_show(mytext);
++
++  gtk_box_pack_start (GTK_BOX (vbox1), mytext, FALSE, TRUE, 0);
+ 
+   g_signal_connect ((gpointer) gcolor2, "destroy",
+                     G_CALLBACK (on_gcolor2_destroy),

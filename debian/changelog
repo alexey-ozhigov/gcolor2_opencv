@@ -1,0 +1,38 @@
+gcolor2 (0.4-2ubuntu2) oneiric; urgency=low
+
+  * aclocal.m4: Add an extra layer of quoting to ltmain.sh sanity check
+    (closes: #634606, LP: #831236).
+
+ -- Colin Watson <cjwatson@ubuntu.com>  Thu, 15 Sep 2011 23:39:39 +0100
+
+gcolor2 (0.4-2ubuntu1) maverick; urgency=low
+
+  * src/interface.c: Use stock Gtk "about" button for better desktop
+    integration. Thanks to Alessio Bolognino. (LP: #313283) 
+  * debian/rules: Don't ignore errors in clean target.
+  * debian/control:
+   - Depend on ${misc:Depends}.
+   - Move homepage to the proper Homepage field.
+  * debian/gcolor2.menu: "Apps" section has been moved to "Applications".
+  * debian/copyright: Make lintian happy.
+
+ -- Andrew Starr-Bochicchio <a.starr.b@gmail.com>  Tue, 24 Aug 2010 15:39:32 -0400
+
+gcolor2 (0.4-2) unstable; urgency=low
+
+  * Change main.c to use stdlib.h for amd64 problems (closes: Bug#347816).
+  * Change main.c to correct warnings on compilation and include also:
+    string.h and glib/gprintf.h.
+  * Change callbacks.c to correct warnings on compilation including:
+    string.h and glib/gprintf.h.
+
+ -- Carlos C Soto <csoto@sia-solutions.com>  Sun, 15 Jan 2006 00:34:23 -0600
+
+gcolor2 (0.4-1) unstable; urgency=low
+
+  * New upstream release
+  * Sponsored by David Moreno Garza <damog@debian.net> (closes: Bug#305112).
+  * Initial Release.
+
+ -- Carlos C Soto <csoto@sia-solutions.com>  Sat,  3 Sep 2005 01:39:18 -0500
+

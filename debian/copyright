@@ -1,0 +1,28 @@
+This package was debianized by Carlos C Soto <csoto@sia-solutions.com> on
+Sat, 16 Apr 2005 16:01:39 -0500.
+
+It was downloaded from http://mesh.dl.sourceforge.net/sourceforge/gcolor2/gcolor2-0.3.tar.gz
+with project page http://gcolor2.sourceforge.net
+
+Copyright: 2004-2005, Justin Spadea <justin@j-z-s.com>
+
+License:
+
+   This package is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This package is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this package; if not, write to the Free Software
+   Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL-2'.
+

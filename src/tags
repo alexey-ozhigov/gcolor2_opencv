@@ -1,0 +1,239 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABOUT_CREDITS_TEXT	callbacks.h	17;"	d
+ABOUT_NOTES_TEXT	callbacks.h	27;"	d
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/alex\/gcolor2-0.4\/missing --run aclocal-1.6$/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/alex\/gcolor2-0.4\/missing --run tar$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AS	Makefile	/^AS = @AS@$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/alex\/gcolor2-0.4\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/alex\/gcolor2-0.4\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/alex\/gcolor2-0.4\/missing --run automake-1.6$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+CATALOGS	Makefile	/^CATALOGS = $/;"	m
+CATOBJEXT	Makefile	/^CATOBJEXT = .gmo$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+COLOR	callbacks.h	/^	COLOR,$/;"	e	enum:__anon1
+COLOR_NAME	callbacks.h	/^	COLOR_NAME,$/;"	e	enum:__anon1
+COLOR_TYPE	callbacks.h	/^	COLOR_TYPE,$/;"	e	enum:__anon1
+COLOR_VALUE	callbacks.h	/^	COLOR_VALUE,$/;"	e	enum:__anon1
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+DATADIRNAME	Makefile	/^DATADIRNAME = share$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES =  -I. -I$(srcdir) -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEP_FILES	Makefile	/^DEP_FILES = .\/$(DEPDIR)\/callbacks.Po \\$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = Makefile.am Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(gcolor2_SOURCES)$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = @DLLTOOL@$/;"	m
+ECHO	Makefile	/^ECHO = echo$/;"	m
+EGREP	Makefile	/^EGREP = grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGSFLAGS	Makefile	/^ETAGSFLAGS =$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+F77	Makefile	/^F77 = $/;"	m
+FILE_ERROR	callbacks.h	5;"	d
+FILE_READ	callbacks.h	7;"	d
+FILE_WRITE	callbacks.h	8;"	d
+GCJ	Makefile	/^GCJ = @GCJ@$/;"	m
+GCJFLAGS	Makefile	/^GCJFLAGS = @GCJFLAGS@$/;"	m
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = gcolor2$/;"	m
+GLADE_HOOKUP_OBJECT	interface.c	22;"	d	file:
+GLADE_HOOKUP_OBJECT_NO_REF	interface.c	26;"	d	file:
+GMOFILES	Makefile	/^GMOFILES = $/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/usr\/bin\/msgfmt$/;"	m
+ICONV	Makefile	/^ICONV = \/usr\/bin\/iconv$/;"	m
+INCLUDES	Makefile	/^INCLUDES = \\$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = ${SHELL} $(install_sh) -c -s$/;"	m
+INSTOBJEXT	Makefile	/^INSTOBJEXT = .mo$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTLTOOL_CAVES_RULE	Makefile	/^INTLTOOL_CAVES_RULE = %.caves:     %.caves.in     $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_DESKTOP_RULE	Makefile	/^INTLTOOL_DESKTOP_RULE = %.desktop:   %.desktop.in   $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_DIRECTORY_RULE	Makefile	/^INTLTOOL_DIRECTORY_RULE = %.directory: %.directory.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_EXTRACT	Makefile	/^INTLTOOL_EXTRACT = $(top_builddir)\/intltool-extract$/;"	m
+INTLTOOL_KBD_RULE	Makefile	/^INTLTOOL_KBD_RULE = %.kbd:       %.kbd.in       $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -x -u -m -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_KEYS_RULE	Makefile	/^INTLTOOL_KEYS_RULE = %.keys:      %.keys.in      $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -k -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_MERGE	Makefile	/^INTLTOOL_MERGE = $(top_builddir)\/intltool-merge$/;"	m
+INTLTOOL_OAF_RULE	Makefile	/^INTLTOOL_OAF_RULE = %.oaf:       %.oaf.in       $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -o -p $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_PERL	Makefile	/^INTLTOOL_PERL = \/usr\/bin\/perl$/;"	m
+INTLTOOL_PONG_RULE	Makefile	/^INTLTOOL_PONG_RULE = %.pong:      %.pong.in      $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -x -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_PROP_RULE	Makefile	/^INTLTOOL_PROP_RULE = %.prop:      %.prop.in      $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_SCHEMAS_RULE	Makefile	/^INTLTOOL_SCHEMAS_RULE = %.schemas:   %.schemas.in   $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -s -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_SERVER_RULE	Makefile	/^INTLTOOL_SERVER_RULE = %.server:    %.server.in    $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -o -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_SHEET_RULE	Makefile	/^INTLTOOL_SHEET_RULE = %.sheet:     %.sheet.in     $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -x -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_SOUNDLIST_RULE	Makefile	/^INTLTOOL_SOUNDLIST_RULE = %.soundlist: %.soundlist.in $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_THEME_RULE	Makefile	/^INTLTOOL_THEME_RULE = %.theme:     %.theme.in     $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -d -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_UI_RULE	Makefile	/^INTLTOOL_UI_RULE = %.ui:        %.ui.in        $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -x -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_UPDATE	Makefile	/^INTLTOOL_UPDATE = $(top_builddir)\/intltool-update$/;"	m
+INTLTOOL_XAM_RULE	Makefile	/^INTLTOOL_XAM_RULE = %.xam:       %.xml.in       $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -x -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+INTLTOOL_XML_NOMERGE_RULE	Makefile	/^INTLTOOL_XML_NOMERGE_RULE = %.xml:       %.xml.in       $(INTLTOOL_MERGE) ; LC_ALL=C $(INTLTOOL_MERGE) -x -u \/tmp $< $@$/;"	m
+INTLTOOL_XML_RULE	Makefile	/^INTLTOOL_XML_RULE = %.xml:       %.xml.in       $(INTLTOOL_MERGE) $(wildcard $(top_srcdir)\/po\/*.po) ; LC_ALL=C $(INTLTOOL_MERGE) -x -u -c $(top_builddir)\/po\/.intltool-merge-cache $(top_srcdir)\/po $< $@$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \\$/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(DEFAULT_INCLUDES) \\$/;"	m
+MAINT	Makefile	/^MAINT = #$/;"	m
+MKINSTALLDIRS	Makefile	/^MKINSTALLDIRS = .\/mkinstalldirs$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/usr\/bin\/msgfmt$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/usr\/bin\/msgmerge$/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+N_	support.h	20;"	d
+N_	support.h	22;"	d
+N_	support.h	32;"	d
+N_COLUMNS	callbacks.h	/^	N_COLUMNS$/;"	e	enum:__anon1
+OBJDUMP	Makefile	/^OBJDUMP = @OBJDUMP@$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+PACKAGE	Makefile	/^PACKAGE = gcolor2$/;"	m
+PACKAGE_CFLAGS	Makefile	/^PACKAGE_CFLAGS = -pthread -I\/usr\/include\/gtk-2.0 -I\/usr\/lib\/x86_64-linux-gnu\/gtk-2.0\/include -I\/usr\/include\/atk-1.0 -I\/usr\/include\/cairo -I\/usr\/include\/gdk-pixbuf-2.0 -I\/usr\/include\/pango-1.0 -I\/usr\/include\/gio-unix-2.0\/ -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/x86_64-linux-gnu\/glib-2.0\/include -I\/usr\/include\/pixman-1 -I\/usr\/include\/freetype2 -I\/usr\/include\/libpng12  $/;"	m
+PACKAGE_LIBS	Makefile	/^PACKAGE_LIBS = -pthread -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0  $/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POFILES	Makefile	/^POFILES = $/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+PO_IN_DATADIR_FALSE	Makefile	/^PO_IN_DATADIR_FALSE = $/;"	m
+PO_IN_DATADIR_TRUE	Makefile	/^PO_IN_DATADIR_TRUE = $/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+Q_	support.h	18;"	d
+Q_	support.h	31;"	d
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RC	Makefile	/^RC = @RC@$/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(gcolor2_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SYSTEM_COLOR	callbacks.h	4;"	d
+SYSTEM_FILE_1	callbacks.h	11;"	d
+SYSTEM_FILE_2	callbacks.h	12;"	d
+SYSTEM_FILE_3	callbacks.h	13;"	d
+SYSTEM_FILE_4	callbacks.h	14;"	d
+USER_COLOR	callbacks.h	3;"	d
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+VERSION	Makefile	/^VERSION = 0.4$/;"	m
+XGETTEXT	Makefile	/^XGETTEXT = \/usr\/bin\/xgettext$/;"	m
+_	support.h	16;"	d
+_	support.h	17;"	d
+_	support.h	30;"	d
+aboutdialog	callbacks.c	/^static GtkWidget *aboutdialog = NULL;$/;"	v	file:
+add_color_to_treeview	callbacks.c	/^void add_color_to_treeview ()$/;"	f
+add_list_color	main.c	/^void add_list_color (gchar *spec, gchar *name, gchar *type, gboolean is_new_color)$/;"	f
+add_pixmap_directory	support.c	/^add_pixmap_directory                   (const gchar     *directory)$/;"	f
+add_rgb_file	main.c	/^void add_rgb_file (gchar *filename, gchar *type)$/;"	f
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am_gcolor2_OBJECTS	Makefile	/^am_gcolor2_OBJECTS = main.$(OBJEXT) support.$(OBJEXT) \\$/;"	m
+binPROGRAMS_INSTALL	Makefile	/^binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = gcolor2$(EXEEXT)$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = gcolor2$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindtextdomain	support.h	29;"	d
+colorname	callbacks.c	/^gchar            *colorname;$/;"	v
+colorvalue	callbacks.h	/^GdkColor   colorvalue;$/;"	v
+create_about_dialog	interface.c	/^create_about_dialog (void)$/;"	f
+create_delete_dialog	interface.c	/^create_delete_dialog (void)$/;"	f
+create_gcolor2	interface.c	/^create_gcolor2 (void)$/;"	f
+create_pixbuf	support.c	/^create_pixbuf                          (const gchar     *filename)$/;"	f
+create_pixmap	support.c	/^create_pixmap                          (GtkWidget       *widget,$/;"	f
+create_popup_menu	interface.c	/^create_popup_menu (void)$/;"	f
+create_save_dialog	interface.c	/^create_save_dialog (void)$/;"	f
+datadir	Makefile	/^datadir = ${prefix}\/share$/;"	m
+dcgettext	support.h	28;"	d
+delete_color	callbacks.c	/^gboolean delete_color (gchar* color_name, gchar* color_value)$/;"	f
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+destroy_aboutdialog	callbacks.c	/^void destroy_aboutdialog (GtkObject *object, gpointer user_data)$/;"	f
+dgettext	support.h	27;"	d
+distdir	Makefile	/^distdir = $(top_distdir)\/$(PACKAGE)-$(VERSION)$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+find_pixmap_file	support.c	/^find_pixmap_file                       (const gchar     *filename)$/;"	f	file:
+gcolor2	callbacks.h	/^GtkWidget *gcolor2;$/;"	v
+gcolor2_DEPENDENCIES	Makefile	/^gcolor2_DEPENDENCIES =$/;"	m
+gcolor2_LDADD	Makefile	/^gcolor2_LDADD = -pthread -lgtk-x11-2.0 -lgdk-x11-2.0 -latk-1.0 -lgio-2.0 -lpangoft2-1.0 -lpangocairo-1.0 -lgdk_pixbuf-2.0 -lcairo -lpango-1.0 -lfreetype -lfontconfig -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lrt -lglib-2.0   $(INTLLIBS)$/;"	m
+gcolor2_LDFLAGS	Makefile	/^gcolor2_LDFLAGS =$/;"	m
+gcolor2_OBJECTS	Makefile	/^gcolor2_OBJECTS = $(am_gcolor2_OBJECTS)$/;"	m
+gcolor2_SOURCES	Makefile	/^gcolor2_SOURCES = \\$/;"	m
+gdkwin	main.c	/^GdkWindow    *gdkwin;$/;"	v
+get_system_file	main.c	/^gchar* get_system_file ()$/;"	f
+get_user_file	main.c	/^gchar* get_user_file ()$/;"	f
+gettext	support.h	26;"	d
+glade_set_atk_action_description	support.c	/^glade_set_atk_action_description       (AtkAction       *action,$/;"	f
+hex_value	callbacks.c	/^gchar* hex_value (GdkColor color)$/;"	f
+host_alias	Makefile	/^host_alias = $/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${prefix}\/info$/;"	m
+install_sh	Makefile	/^install_sh = \/home\/alex\/gcolor2-0.4\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+liststore	main.c	/^GtkListStore *liststore;$/;"	v
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lookup_widget	support.c	/^lookup_widget                          (GtkWidget       *widget,$/;"	f
+main	main.c	/^gint main (gint argc, gchar *argv[])$/;"	f
+mandir	Makefile	/^mandir = ${prefix}\/man$/;"	m
+menu	callbacks.h	/^GtkWidget *menu;$/;"	v
+mkdir_p	Makefile	/^mkdir_p = mkdir -p -- .$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(SHELL) $(top_srcdir)\/mkinstalldirs$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+on_about_button_clicked	callbacks.c	/^void on_about_button_clicked (GtkButton *button, gpointer user_data)$/;"	f
+on_colorselection_color_changed	callbacks.c	/^void on_colorselection_color_changed (GtkColorSelection *colorselection, gpointer user_data)$/;"	f
+on_copy_color_to_clipboard_activate	callbacks.c	/^void on_copy_color_to_clipboard_activate (GtkMenuItem *menuitem, gpointer user_data)$/;"	f
+on_delete_button_clicked	callbacks.c	/^void on_delete_button_clicked (GtkButton *button, gpointer user_data)$/;"	f
+on_gcolor2_destroy	callbacks.c	/^void on_gcolor2_destroy (GtkObject *object, gpointer user_data)$/;"	f
+on_list_selection_changed	callbacks.c	/^void on_list_selection_changed (GtkTreeSelection *selection, gpointer user_data)$/;"	f
+on_quit_button_clicked	callbacks.c	/^void on_quit_button_clicked (GtkButton *button, gpointer user_data)$/;"	f
+on_save_button_clicked	callbacks.c	/^void on_save_button_clicked (GtkButton *button, gpointer user_data)$/;"	f
+on_save_entry_changed	callbacks.c	/^void on_save_entry_changed (GtkEditable *editable, gpointer user_data)$/;"	f
+on_show_system_colors_activate	callbacks.c	/^void on_show_system_colors_activate (GtkMenuItem *menuitem, gpointer user_data)$/;"	f
+on_treeview_button_press_event	callbacks.c	/^gboolean on_treeview_button_press_event (GtkWidget *widget, GdkEventButton *event,$/;"	f
+on_treeview_popup_menu	callbacks.c	/^gboolean on_treeview_popup_menu (GtkWidget *widget, gpointer user_data)$/;"	f
+pixmaps_directories	support.c	/^static GList *pixmaps_directories = NULL;$/;"	v	file:
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/gcolor2$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/gcolor2$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/gcolor2$/;"	m
+prefix	Makefile	/^prefix = \/home\/alex\/gcolor2$/;"	m
+save_selected_color	callbacks.c	/^gboolean save_selected_color ()$/;"	f
+savedialog	callbacks.c	/^GtkWidget        *savedialog;$/;"	v
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+selection_iter	callbacks.c	/^GtkTreeIter       selection_iter;$/;"	v
+set_system_file	main.c	/^gboolean set_system_file ()$/;"	f
+set_user_file	main.c	/^void set_user_file ()$/;"	f
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+show_file_error	callbacks.c	/^void show_file_error (gchar* type)$/;"	f
+show_popup_menu	callbacks.c	/^void show_popup_menu (GtkWidget *treeview, GdkEventButton *event, gpointer user_data)$/;"	f
+srcdir	Makefile	/^srcdir = .$/;"	m
+subdir	Makefile	/^subdir = src$/;"	m
+sys_filename	main.c	/^gchar        *sys_filename;$/;"	v
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+textdomain	support.h	25;"	d
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_distdir	Makefile	/^top_distdir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+transform	Makefile	/^transform = s,x,x,$/;"	m
+user_filename	main.c	/^gchar        *user_filename;$/;"	v
